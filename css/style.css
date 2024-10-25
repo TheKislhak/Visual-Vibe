@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'&#39;);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);
+}
+
+.naves {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5rem;
+}
+
+.mlogo {
+    width: 200px;
+    align-items: flex-start;
+}
+
+.texto {
+    display: flex;
+    gap: 55px;
+    font-size: 1.2rem;
+    justify-content:flex-end;
+    list-style: none;
+    color: white;
+    font-weight: 300;
+}
+
+button {
+    background: linear-gradient(90deg, #349054, #57c3f0);
+    border-radius: 5px;
+    height: 3rem;
+    width: 10rem;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: none;
+}
+
+.sec {
+    color: white;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Ulti {
+    font-size: 3rem;
+    font-weight: 100;
+    width: 50rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    flex-direction: column;
+}
+
+.Lorem {
+    font-size: 1.3rem;
+    padding-left: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.but {
+    display: flex;
+    width: 23rem;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.undo {
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+
+.imagemLogo {
+    display: flex;
+    height: 50rem;
+    padding-left: 40rem;
+}
